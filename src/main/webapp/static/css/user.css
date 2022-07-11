@@ -1,0 +1,11 @@
+.section {
+    margin: 1em 0;
+}
+
+.section + .section {
+    border-top: 1px solid var(--nord4);
+}
+
+.section-heading {
+    margin: .5em 0;
+}

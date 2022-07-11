@@ -1,0 +1,52 @@
+p {
+    line-height: 130%;
+}
+
+input[type="number"] {
+    margin: .25em 0;
+    font-size: 95%;
+    width: 300px;
+    display: block;
+}
+
+input[type="checkbox"] {
+    height: 15px;
+    display: inline;
+    margin: 5px 1px 5px 5px;
+}
+
+label {
+    display: inline;
+    font-size: 90%;
+    color: var(--nord3);
+}
+
+button {
+    background: var(--nord2);
+    color: var(--nord6);
+    border-radius: 5px;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 90%;
+    border: none;
+    margin: 3px 0 0;
+}
+
+button:hover {
+    background: var(--nord3);
+    color: var(--nord5);
+}
+
+#details-table {
+    color: var(--nord1);
+    border-collapse: collapse;
+}
+
+#details-table > tbody > tr > td {
+    padding: 7px;
+}
+
+#details-table > tbody > tr + tr > td {
+    border-top: 1px solid var(--nord4);
+}

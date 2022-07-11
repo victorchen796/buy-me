@@ -1,0 +1,131 @@
+.section {
+    margin: 1em 0;
+}
+
+.section + .section {
+    border-top: 1px solid var(--nord4);
+}
+
+.section-heading {
+    margin: .5em 0 0;
+}
+
+.field-heading {
+    margin: .7em 0 0;
+}
+
+.subscript {
+    margin: .3em 0;
+}
+
+.form-error {
+    text-align: left;
+    color: var(--nord12);
+    font-size: 100%;
+    margin: .25em auto 0;
+}
+
+.input-error {
+    border: 2px solid var(--nord12);
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+textarea {
+    font: inherit;
+    padding: 5px;
+    font-size: .9em;
+    width: 100%;
+    resize: none;
+}
+
+select {
+    font: inherit;
+    padding: 7px;
+    background: white;
+    border: 1px solid gray;
+    font-size: 100%;
+}
+
+table {
+    width: 100%;
+    border: 1px solid var(--nord4);
+    color: var(--nord1);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table > thead > tr > td {
+    padding: 5px;
+}
+
+table > tbody > tr > td {
+    border: 1px solid var(--nord4);
+    padding: 5px;
+}
+
+table > tbody > tr > td:first-child, table > tbody > tr > td:last-child {
+    width: 30px;
+}
+
+table > tfoot > tr > td {
+    padding: 5px;
+}
+
+.row-remove-button {
+    background: none;
+    border: none;
+    color: var(--nord11);
+    font-size: 100%;
+}
+
+.row-remove-button:hover {
+    color: var(--nord12);
+}
+
+.add-button {
+    padding: 5px;
+    font-size: 95%;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: var(--nord6);
+    background: var(--nord2);
+}
+
+.add-button:hover {
+    color: var(--nord5);
+    background: var(--nord3);
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 1em;
+}
+
+input[type="datetime-local"] {
+    padding: 7px;
+    font-size: 1em;
+    font: inherit;
+    width: 100%;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 130%;
+    border: none;
+    border-radius: 5px;
+    color: var(--nord6);
+    background: var(--nord2);
+    margin: 1em 0 35px;
+}
+
+.submit-button:hover {
+    color: var(--nord5);
+    background: var(--nord3);
+}

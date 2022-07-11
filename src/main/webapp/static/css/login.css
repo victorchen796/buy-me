@@ -1,0 +1,73 @@
+#outer-div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo-div {
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 225%;
+    color: var(--nord1);
+    text-decoration: none;
+}
+
+#logo:hover {
+    color: var(--nord3);
+}
+
+#inner-div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: fit-content;
+    width: 300px;
+    background: white;
+    box-shadow: 0 0 5px lightgray;
+    border-radius: 10px;
+}
+
+.section {
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+.field {
+    font-size: 125%;
+    margin: 0 0 .5em;
+    color: var(--nord1);
+}
+
+input {
+    padding: 5px;
+    font-size: 125%;
+    width: 100%;
+}
+
+#login-error {
+    color: var(--nord11);
+    font-size: 100%;
+    text-align: center;
+    margin: 1em auto 0;
+}
+
+.login-button {
+    margin: 12px 0 0;
+    padding: 10px;
+    font-size: 100%;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: var(--nord6);
+    background: var(--nord2);
+}
+
+.login-button:hover {
+    color: var(--nord5);
+    background: var(--nord3);
+}
