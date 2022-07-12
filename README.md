@@ -18,7 +18,7 @@ This project is inspired by an assignment completed for CS336 at Rutgers Univers
 
 ## Configuration
 
-By default, the MongoDB port is set to `localhost:27017`. To modify the hostname, port number, or any other authentication settings, modify the relevant values in `src/main/resources/application.properties`.
+By default, the MongoDB port is set to `localhost:27017`. To change the hostname, port number, or any other authentication settings, modify the relevant values in `src/main/resources/application.properties`.
 
 ## Building and Running
 
