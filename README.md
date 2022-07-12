@@ -8,13 +8,13 @@ This project is inspired by an assignment completed for CS336 at Rutgers Univers
 
 ## Technologies Used
 
-* Spring Boot
-* Spring Data
-* Java
-* MongoDB
-* JSP (with JSTL)
+* [Spring Boot](https://spring.io/projects/spring-boot)
+* [Spring Data](https://spring.io/projects/spring-data)
+* [Java](https://www.java.com/en/)
+* [MongoDB](https://www.mongodb.com/)
+* [JSP](https://projects.eclipse.org/projects/ee4j.jsp) (with [JSTL](https://projects.eclipse.org/projects/ee4j.jstl))
 * HTML + CSS
-* JavaScript + jQuery (with DataTables)
+* JavaScript + [jQuery](https://jquery.com/) (with [DataTables](https://datatables.net/))
 
 ## Configuration
 
